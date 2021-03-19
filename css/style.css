@@ -1,3 +1,6 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 body {
     margin: 0;
     font-size: 20px;
@@ -110,6 +113,7 @@ p{
 main > h1 {
     text-transform: uppercase;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 img {
@@ -345,6 +349,10 @@ img {
 .telefoane-contact a {
     color: inherit !important;
 }
+.adrese-contact {
+    margin-bottom: 15px;
+}
+
 
 
 @keyframes aside-anim {
@@ -395,7 +403,7 @@ img {
     main {
         width: 100%;
         border-left: unset;
-        padding: 10px 5%;
+        padding: 10px 3%;
     }
     navbar, a {
         padding: 20px 10px;
